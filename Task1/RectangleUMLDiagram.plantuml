@@ -1,0 +1,10 @@
+@startuml rectangleDiagram
+
+class RectangleAreaCalculator {
+    -length: double
+    -width: double
+    -area: double
+    +main(args: String[]): void
+}
+
+@enduml

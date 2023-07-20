@@ -1,0 +1,11 @@
+@startuml numDivisionDiagram
+
+class NumberDivision {
+    -num1: int
+    -num2: int
+    -div: int
+    +main(args: String[]): void
+}
+
+
+@enduml
